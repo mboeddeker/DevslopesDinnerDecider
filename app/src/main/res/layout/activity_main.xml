@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/muli_bold"
-        android:text="Chinese"
+        android:text="@string/chinese"
         android:textSize="30sp"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,7 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dd_logo" />
+        app:srcCompat="@drawable/dd_logo"
+        android:contentDescription="@string/logo" />
 
     <Button
         android:id="@+id/decideBtn"
@@ -39,7 +40,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/muli_bold"
-        android:text="DECIDE!"
+        android:text="@string/decide"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +54,7 @@
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:fontFamily="@font/muli_bold"
-        android:hint="add new food ..."
+        android:hint="@string/add_new_food"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/addFoodBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,7 +69,7 @@
         android:layout_marginBottom="80dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/muli_bold"
-        android:text="ADD FOOD"
+        android:text="@string/add_food"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toTopOf="@+id/decideBtn"
         app:layout_constraintEnd_toEndOf="parent"
